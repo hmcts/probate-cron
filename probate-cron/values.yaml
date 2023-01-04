@@ -116,6 +116,7 @@ job:
     PROBATE_POSTGRESQL_HOSTNAME: probatemandb-postgres-db-v11-{{ .Values.global.environment }}.postgres.database.azure.com
     PROBATE_POSTGRESQL_DATABASE: probatemandb
     PROBATE_POSTGRESQL_PORT: 5432
+    ENV_VAR_1: var1
 
   args:
     - run
