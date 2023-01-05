@@ -120,7 +120,7 @@ job:
   args:
     - run
     - SmeeAndFordExtractTask
-  schedule: "0 0/11 * * *"
+  schedule: "0 0/10 * * *"
   concurrencyPolicy: Forbid
 global:
   jobKind: CronJob
