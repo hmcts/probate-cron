@@ -60,7 +60,7 @@ job:
           alias: lev.death.url
         - name: schedulerCaseWorkerUser
           alias: SCHEDULER_CASEWORKER_USERNAME
-        - name: schedulerCaseWorkerUser
+        - name: schedulerCaseWorkerPass
           alias: SCHEDULER_CASEWORKER_PASSWORD
         - name: blob-storage-connection-string
           alias: BLOB_STORAGE_CONNECTION_STRING
