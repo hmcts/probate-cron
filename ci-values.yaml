@@ -51,3 +51,4 @@ job:
   concurrencyPolicy: Forbid
 global:
   jobKind: CronJob
+  environment: aat
