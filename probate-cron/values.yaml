@@ -117,9 +117,7 @@ job:
     PROBATE_POSTGRESQL_DATABASE: probatemandb
     PROBATE_POSTGRESQL_PORT: 5432
 
-  args:
-    - run
-    - SmeeAndFordExtractTask
+
   schedule: "0 0/10 * * *"
   concurrencyPolicy: Forbid
 global:
