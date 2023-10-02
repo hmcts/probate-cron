@@ -22,6 +22,8 @@ job:
           alias: excelaEmail
         - name: smeeAndFordEmail
           alias: smeeAndFordEmail
+        - name: hmrcEmail
+          alias: hmrcEmail
         - name: ftpSignature
           alias: ftp.client.signature
         - name: ftpEnv
