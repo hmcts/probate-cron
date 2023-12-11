@@ -8,5 +8,5 @@ maintainers:
   - name: HMCTS Probate Team
 dependencies:
   - name: job
-    version: 1.1.5
+    version: 2.0.0
     repository: https://hmctspublic.azurecr.io/helm/v1/repo/
