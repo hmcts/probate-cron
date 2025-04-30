@@ -76,6 +76,8 @@ job:
           alias: PAYMENT_CASEWORKER_PASSWORD
         - name: payCaseWorkerUser
           alias: PAYMENT_CASEWORKER_USERNAME
+        - name: draftCaseWithPaymentEmail
+          alias: draftCaseWithPaymentEmail
   environment:
     REFORM_TEAM: probate
     REFORM_SERVICE_NAME: orchestrator-service
