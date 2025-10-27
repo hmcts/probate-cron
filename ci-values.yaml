@@ -22,6 +22,8 @@ job:
           alias: SCHEDULER_CASEWORKER_PASSWORD
         - name: draftCaseWithPaymentEmail
           alias: draftCaseWithPaymentEmail
+        - name: probate-storage-account-nfi-primary-connection-string
+          alias: PROBATE_STORAGE_ACCOUNT_NFI_PRIMARY_CONNECTION_STRING
   environment:
     REFORM_TEAM: probate
     REFORM_SERVICE_NAME: back-office
