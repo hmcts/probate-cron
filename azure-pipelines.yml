@@ -24,8 +24,8 @@ jobs:
           chartName: probate-cron
           chartReleaseName: probate-cron-ci-test
           chartNamespace: chart-tests
-          aksResourceGroup: cft-preview-01-rg
-          aksCluster: cft-preview-01-aks
+          aksResourceGroup: cft-preview-00-rg
+          aksCluster: cft-preview-00-aks
 
 
   - job: Release
