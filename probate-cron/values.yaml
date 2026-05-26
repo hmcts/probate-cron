@@ -6,7 +6,7 @@ job:
       secrets:
         - name: app-insights-connection-string
           alias: app-insights-connection-string
-        - name: probatemandb-POSTGRES-PASS
+        - name: probatemandb-POSTGRES-PASS-FLEX
           alias: spring.datasource.password
         - name: s2s-probate-backend
           alias: idam.s2s-auth.totp_secret
@@ -66,8 +66,6 @@ job:
           alias: SCHEDULER_CASEWORKER_USERNAME
         - name: schedulerCaseWorkerPass
           alias: SCHEDULER_CASEWORKER_PASSWORD
-        - name: blob-storage-connection-string
-          alias: BLOB_STORAGE_CONNECTION_STRING
         - name: ccidam-idam-api-secrets-probate
           alias: AUTH2_CLIENT_SECRET
         - name: idamRedirectUrl
@@ -78,6 +76,8 @@ job:
           alias: PAYMENT_CASEWORKER_USERNAME
         - name: draftCaseWithPaymentEmail
           alias: draftCaseWithPaymentEmail
+        - name: probate-storage-account-primary-connection-string
+          alias: PROBATE_STORAGE_ACCOUNT_PRIMARY_CONNECTION_STRING
         - name: probate-storage-account-nfi-primary-connection-string
           alias: PROBATE_STORAGE_ACCOUNT_NFI_PRIMARY_CONNECTION_STRING
   environment:
